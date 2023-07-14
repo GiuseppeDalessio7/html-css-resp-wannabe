@@ -131,14 +131,14 @@ img {
 
 @media screen and (max-width:768px) {
     .container {
-        max-width: 70%;
-        width: 768px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width:480px) {
     .container {
-        width: 480px;
+        width: 100%;
+        
     }
 
     .site-header h1 {
@@ -156,9 +156,12 @@ img {
 
     .lessons .col {
         width: 100%;
+
     }
 
-
+    .col{
+        margin-bottom: 4rem ;
+    }
 
     .steps .col {
         width: 100%;
@@ -179,12 +182,12 @@ img {
         width: 100%;
     }
 
-    body{
-        background-color: #232322;
+    body{background-color: #232322;
+        
     }
 
+
     .steps  {
-        /* margin: 3rem 0; */
         padding: 3rem 0;
         color: #232946;
         background: #eebbc3;
